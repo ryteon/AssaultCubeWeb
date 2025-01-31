@@ -7,40 +7,18 @@ IN-DEVELOPMENT: ryteon's AC WEB
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="ryteondevs">
-  <title>ryteon's AssaultCube</title>
+  <title>ryteon's AssaultCubeRemastered</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet"/>
-  <style>
-    body {
-        background-color: #000;
-        color: #33ff00;
-        font-family: "Courier New", Courier, monospace;
-        overflow-x: hidden;
-    }
-    .shadow-effect {
-        box-shadow: 0 0 15px #33FF0099;
-    }
-    .retro-btn {
-        font-size: 14px;
-        color: #33ff00;
-        background: transparent;
-        border: 2px solid #33ff00;
-        padding: 6px 12px;
-        border-radius: 4px;
-        transition: transform 0.2s ease, background-color 0.2s ease;
-    }
-    .retro-btn:hover {
-        background-color: #33cc33;
-        color: #000;
-        transform: scale(1.1);
-    }
-  </style>
+
+  <!-- Main (Custom) CSS -->
+  <link href="main/css/style.css" rel="stylesheet"/>
 </head>
 
 <body class="flex flex-col min-h-screen">
   <div class="flex flex-col md:flex-row flex-grow">
     <aside class="bg-black w-full md:w-64 py-6 px-4 flex flex-col items-center shadow-lg">
-      <h1 class="text-green-500 text-xl font-bold mb-6">ryteon's AssaultCube</h1>
+      <h1 class="text-green-500 text-xl font-bold mb-6">ryteon's AssaultCubeRemastered</h1>
       <nav class="flex flex-col items-center space-y-4">
         <a href="#" class="text-green-400 hover:text-green-300 text-lg"><i class="fas fa-home mr-2"></i>Home</a>
         <a href="#" class="text-green-400 hover:text-green-300 text-lg"><i class="fas fa-newspaper mr-2"></i>News</a>
@@ -49,6 +27,27 @@ IN-DEVELOPMENT: ryteon's AC WEB
     </aside>
 
     <main class="flex-grow p-6 text-center bg-black text-green-200">
+      <section class="max-w-2xl mx-auto">
+        <h2 class="text-2xl font-semibold mb-6">What is AssaultCube?</h2>
+        <div class="mb-6 p-4 border border-green-500 rounded-lg">
+          <p class="mt-2">
+            AssaultCube(Remastered) is a <strong>FREE</strong>, multiplayer, first-person shooter game, based on the CUBE engine.
+          </p>
+          <p class="mt-2">
+            Taking place in realistic environments, with fast, arcade gameplay, it's addictive and fun!
+          </p>
+          <p class="mt-2">
+            With efficient bandwidth usage, it's low-latency and can even run over a 56 Kbps connection.
+          </p>
+          <p class="mt-2">
+            It's tiny too, weighing in at a lightweight ~50 MB package available for Windows, Mac, and Linux.
+          </p>
+          <p class="mt-2">
+            On the correct settings, it can even run on old hardware (Pentium III and above).
+          </p>
+        </div>
+      </section>
+      
       <section class="max-w-2xl mx-auto">
         <h2 class="text-2xl font-semibold mb-6">Home/News</h2>
         <div class="mb-6 p-4 border border-green-500 rounded-lg">
@@ -78,9 +77,9 @@ IN-DEVELOPMENT: ryteon's AC WEB
       <section class="max-w-2xl mx-auto mt-8">
         <h2 class="text-2xl font-semibold mb-6">Team</h2>
         <div class="flex flex-wrap justify-center gap-4">
-          <button class="retro-btn"><a href="#">scuderia666</a></button>
-          <button class="retro-btn"><a href="#">nxpinhum5326</a></button>
-          <button class="retro-btn"><a href="#">and... You!?</a></button>
+          <button class="retro-btn"><a href="https://github.com/scuderia666" target="_blank">scuderia666</a></button>
+          <button class="retro-btn"><a href="https://github.com/nxpinhum5326" target="_blank">nxpinhum5326</a></button>
+          <button class="retro-btn"><a>and... You!?</a></button>
         </div>
       </section>
     </main>

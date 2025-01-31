@@ -1,0 +1,23 @@
+body {
+    background-color: #000;
+    color: #33ff00;
+    font-family: "Courier New", Courier, monospace;
+    overflow-x: hidden;
+}
+.shadow-effect {
+    box-shadow: 0 0 15px #33FF0099;
+}
+.retro-btn {
+    font-size: 14px;
+    color: #33ff00;
+    background: transparent;
+    border: 2px solid #33ff00;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.retro-btn:hover {
+    background-color: #33cc33;
+    color: #000;
+    transform: scale(1.1);
+}
